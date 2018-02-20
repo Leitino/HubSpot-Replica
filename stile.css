@@ -107,18 +107,54 @@ nav{
 }
 
 .testo{
-  width: 30%;
+  width: 35%;
   margin-left: 10%;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   position: absolute;
   display: inline-block;
   top: 50%;
+  margin-top: -25px;
 }
 
 .testo h1{
+  font-weight: bold;
+  font-family: inherit;
   color: #2D3E50;
   font-size: 50px;
   margin-bottom: 20px;
+}
+
+.testo p{
+  color: inherit;
+  font-family: inherit;
+  font-weight: lighter;
+  color: #2D3E50;
+  font-size: 20px;
+}
+
+.testo-int{
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+}
+
+.testo-int a{
+  border-radius: 3px;
+  color: white;
+  background-color: #ff7a59;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  float: left;
+  width: 170px;
+  height: 50px;
+}
+
+.testo-int p{
+  padding: 10px;
+  width: 280px;
+  float: right;
+  font-size: 15px;
 }
 
 .astronauta{
@@ -131,4 +167,74 @@ nav{
   margin-right: 400px;
   width: 450px;
   height: 500px;
+}
+
+.blocco2{
+  background-image: linear-gradient(180deg,#f07155,#ff8f59);
+  height: 500px;
+  width: 100vw;
+  text-align: center;
+}
+
+.b2content{
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: content-box;
+  text-align: center;
+
+}
+
+.b2content h2{
+  font-size: 50px;
+  color: white;
+
+}
+
+.b2content p{
+  margin-top: 20px;
+  margin-left: 18%;
+  width: 700px;
+  text-align: center;
+  font-weight: 600;
+  height: 66px;
+  color:white;
+
+}
+
+.logocontent{
+  text-align: center;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.logo{
+  margin-top: 90px;
+}
+
+.rettagoli{
+  width: 80%;
+  margin: auto;
+}
+
+.rettangolo1{
+  border-right: 1px solid #d4dadb;
+  padding: 25px;
+  height: 150px;
+  display: inline-block;
+  width: 25%;
+  background: #e1f0f2;
+}
+
+.rettangolo1:hover{
+  background-color: white;
+}
+
+.rettangolo1 a{
+  text-decoration: none;
+  color: #2D3E50;
+}
+
+h4{
+  font-size: 20px;
 }
