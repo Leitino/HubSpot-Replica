@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: relative;
+  height: 60px;
+  font-size: 20px;
+  color: #2d3e50;
+  width: 100vw;
+  background-color: #F2F5F8
+}
+
+.icone-menu{
+  text-decoration: none;
+  width: 80%;
+  margin: auto;
+}
+
+.icone-sinistra{
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  display: inline-block;
+  color: grey;
+}
+
+.icone-sinistra *{
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.icone-sinistra:hover>i{
+  color: #43BBCD
+}
+
+.icone-sinistra:hover>span{
+  color: #43BBCD
+}
+
+.icone-destra{
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  display: inline-block;
+  color: grey;
+  right: 0;
+}
+
+.icone-destra *{
+  margin-left: 10px;
+
+}
+
+.icone-destra button{
+  margin-left: 5px;
+  color: white;
+  padding: 8px;
+  width: 140px;
+  background-color: #ff7a59;
+  border-radius: 5px;
+}
+
+nav{
+  position: relative;
+  width: 100vw;
+  margin: auto;
+  background-color: white;
+  height: 80px;
+}
+
+.menu{
+  margin: auto;
+  width: 80vw;
+  height: 40px;
+  position: absolute;
+  margin-left: 10%;
+  top: 50%;
+  margin-top: -20px;
+}
+
+.menu a{
+  font-size: 20px;
+  color: #2D3E50;
+  vertical-align: middle;
+  padding: 15px;
+  float: right;
+  text-decoration:none;
+}
+
+.menu a:hover{
+  color: #00A4BD;
+}
+
+.blocco1{
+  height: 500px;
+  width: 100vw;
+  background-color: #F2F5F8;
+}
+
+.testo{
+  width: 30%;
+  margin-left: 10%;
+  margin-bottom: 5px;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+}
+
+.testo h1{
+  color: #2D3E50;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.astronauta{
+  float: right;
+  width: 30%;
+  margin-right: 20%
+}
+
+.astronauta img{
+  margin-right: 400px;
+  width: 450px;
+  height: 500px;
+}
