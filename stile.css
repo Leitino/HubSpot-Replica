@@ -298,3 +298,49 @@ h4{
   margin-left: 15px;
   font-size: 15px;
 }
+
+.b4testo{
+  float: left;
+  margin-right: 8%;
+  margin-top: 120px;
+  width: 432px;
+  height: 436px;
+}
+
+.b4testo h4{
+  color: #425b76;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.b4testo a{
+  font-weight: bold;
+  border-radius: 3px;
+  color: white;
+  background-color: #ff7a59;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  display: block;
+  padding: 25px;
+  width: 170px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.b4testo span{
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.b4testo p{
+  margin-top: 30px;
+}
+
+.blocco4{
+  background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/circlesLightGray.svg);
+
+    background-size: cover;
+    height: 650px;
+    width: 100vw;
+}
