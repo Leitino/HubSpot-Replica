@@ -472,3 +472,71 @@ h4{
 #borderbottom{
   border-right: none;
 }
+
+.blocco8{
+  background: white;
+  height: 650px;
+  width: 100vw;
+}
+
+.b8part1{
+  width: 80%;
+  margin: auto;
+  height: 300px;
+}
+
+.b8testo{
+  float: left;
+  margin-left: 50px;
+  margin-top: 80px;
+  width: 200px;
+  height: 150px;
+}
+
+.b8testo h2{
+  font-size: 40px;
+  color: #2D3E50;
+}
+
+.b8testp p{
+  color: #2D3E50;
+}
+
+.rettangolini{
+  padding: 30px;
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+  width: 180px;
+  height: 100px;
+}
+
+.clear{
+  clear: both;
+}
+
+.b8img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  float: right;
+  background-color: #f2547d;
+}
+
+.b8img img{
+  margin-top: 6px;
+  margin-left: 30px;
+  width: 450px;
+  height: 550px;
+}
+
+footer{
+  height: 700px;
+  width: 100vw;
+  background-color:#2d3e50;
+}
+
+.footercontent{
+  width: 80%;
+  margin: auto;
+}
