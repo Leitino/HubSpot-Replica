@@ -66,7 +66,6 @@ p, span, h4{
 
 .icone-destra *{
   margin-left: 10px;
-
 }
 
 .icone-destra button{
@@ -110,19 +109,23 @@ nav{
 }
 
 .blocco1{
+  position: relative;
   height: 500px;
   width: 100vw;
   background-color: #F2F5F8;
 }
 
+.b1content{
+  width: 80%;
+  margin: auto;
+}
+
 .testo{
   width: 35%;
-  margin-left: 10%;
-  margin-bottom: 10px;
   position: absolute;
-  display: inline-block;
   top: 50%;
-  margin-top: -25px;
+  margin-left: 10%;
+  transform: translate(0%, -50%);
 }
 
 .testo h1{
@@ -169,7 +172,10 @@ nav{
 .astronauta{
   float: right;
   width: 30%;
-  margin-right: 20%
+  position: absolute;
+  right: 10%;
+  top:50%;
+  transform: translate(0%, -50%);
 }
 
 .astronauta img{
@@ -190,13 +196,11 @@ nav{
   padding: 0 20px;
   box-sizing: content-box;
   text-align: center;
-
 }
 
 .b2content h2{
   font-size: 50px;
   color: white;
-
 }
 
 .b2content p{
@@ -207,7 +211,6 @@ nav{
   font-weight: 600;
   height: 66px;
   color:white;
-
 }
 
 .logocontent{
@@ -255,21 +258,25 @@ h4{
 }
 
 .b3content{
+  position: relative;
   width: 80%;
   margin: auto;
 }
 
 .b3img{
   display: inline-block;
-  margin-top: 130px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 
 .b3testo{
-  float: right;
-  margin-right: 8%;
-  margin-top: 120px;
-  width: 432px;
-  height: 436px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+
+
 }
 
 .b3testo h4{
