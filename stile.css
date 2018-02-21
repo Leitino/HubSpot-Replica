@@ -540,3 +540,84 @@ footer{
   width: 80%;
   margin: auto;
 }
+
+.colonna1{
+  padding: 5px;
+  margin-top: 70px;
+  text-align:left;
+  width: 25%;
+  color: white;
+  float: left;
+}
+
+.colonna1 h5{
+  font-size: 20px;
+}
+
+.colonna1 a{
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+  display: block;
+}
+
+.contact a{
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 200px;
+  padding: 10px;
+  background-color: #425b76;
+}
+
+.icone{
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.icone i{
+  padding: 3px;
+}
+
+.lingue{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+ul a{
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+hr{
+  margin-top: 50px;
+}
+
+.finefooter{
+  width: 80%;
+  margin: auto;
+}
+
+.finefootercontent{
+  margin-top: 10px;
+  float: left;
+}
+
+.finefootercontent p{
+  color: white;
+}
+
+.testofooter{
+  float: right;
+  margin-top: 50px;
+}
+
+.testofooter a{
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
