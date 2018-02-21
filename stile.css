@@ -251,6 +251,7 @@ h4{
 }
 
 .blocco3{
+  position: relative;
   background: #f2f5f8 url(http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/new-2017__state3-circles-bg.svg) 0 0 no-repeat;
   background-size: cover;
   height: 650px;
@@ -258,23 +259,34 @@ h4{
 }
 
 .b3content{
-  position: relative;
   width: 80%;
   margin: auto;
 }
 
 .b3img{
-  display: inline-block;
+  width: 35%;
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
 }
 
-.b3testo{
-  display: inline-block;
+.b3img2{
+  float: right;
   position: absolute;
-  top: 50%;
-  transform: translate(50%, -50%);
+  right: 10%;
+  top:50%;
+  transform: translate(0%, -50%);
+
+}
+
+
+.b3testo{
+  float: left;
+  width: 30%;
+  position: absolute;
+  right: 10%;
+  top:50%;
+  transform: translate(0%, -50%);
 
 
 }
@@ -310,11 +322,11 @@ h4{
 }
 
 .b4testo{
-  float: left;
-  margin-right: 8%;
-  margin-top: 120px;
-  width: 432px;
-  height: 436px;
+  width: 35%;
+  position: absolute;
+  top: 20%;
+  transform: translate(0%, -30%);
+
 }
 
 .b4testo h4{
@@ -344,13 +356,15 @@ h4{
 }
 
 .b4testo p{
+  width: 500px;
   margin-top: 30px;
 }
 
 .blocco4{
+    position: relative;
     background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/circlesLightGray.svg);
     background-size: cover;
-    height: 650px;
+    height: 500px;
     width: 100vw;
 }
 
@@ -523,18 +537,16 @@ h4{
 }
 
 .b8img{
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
   float: right;
-  background-color: #f2547d;
+  width: 30%;
+  position: absolute;
+  right: 10%;
+  top:50%;
+  transform: translate(0%, -50%);
 }
 
-.b8img img{
-  margin-top: 6px;
-  margin-left: 30px;
-  width: 450px;
-  height: 550px;
+.b8img{
+
 }
 
 footer{
