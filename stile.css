@@ -13,6 +13,11 @@ header{
   background-color: #F2F5F8
 }
 
+p, span{
+  color: #425b76;
+  line-height: 25px;
+}
+
 .icone-menu{
   text-decoration: none;
   width: 80%;
@@ -237,4 +242,59 @@ nav{
 
 h4{
   font-size: 20px;
+}
+
+.blocco3{
+  background: #f2f5f8 url(http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/new-2017__state3-circles-bg.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100vw;
+}
+
+.b3content{
+  width: 80%;
+  margin: auto;
+}
+
+.b3img{
+  display: inline-block;
+  margin-top: 130px;
+}
+
+.b3testo{
+  float: right;
+  margin-right: 8%;
+  margin-top: 120px;
+  width: 432px;
+  height: 436px;
+}
+
+.b3testo h4{
+  color: #425b76;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.b3testo a{
+  font-weight: bold;
+  border-radius: 3px;
+  color: white;
+  background-color: #ff7a59;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  display: block;
+  padding: 25px;
+  width: 170px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.b3testo p{
+  margin-top: 30px;
+}
+
+.b3testo span{
+  margin-left: 15px;
+  font-size: 15px;
 }
