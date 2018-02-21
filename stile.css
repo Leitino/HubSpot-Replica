@@ -13,7 +13,7 @@ header{
   background-color: #F2F5F8
 }
 
-p, span{
+p, span, h4{
   color: #425b76;
   line-height: 25px;
 }
@@ -338,9 +338,60 @@ h4{
 }
 
 .blocco4{
-  background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/circlesLightGray.svg);
-
+    background: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/circlesLightGray.svg);
     background-size: cover;
     height: 650px;
     width: 100vw;
+}
+
+.blocco6{
+  background-color: white;
+  height: 300px;
+  width: 100vw;
+}
+
+.b6content{
+  width: 80%;
+  margin: auto;
+}
+
+.b6testo{
+  float: left;
+  margin-top: 100px;
+}
+
+.b6testo p{
+  display: block;
+  width: 600px;
+  height: 52px;
+}
+
+.b6testo #orange{
+  display: block;
+  color:#ff7a59;
+  margin-bottom: 10px;
+}
+
+.b6testo h4{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.b6button{
+  float: right;
+}
+
+.b6button a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+  background-color: #ff7a59;
+  text-align: center;
+  position: relative;
+  display: block;
+  padding: 25px;
+  width: 170px;
+  height: 70px;
+  margin-top: 150px;
 }
